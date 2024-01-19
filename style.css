@@ -1,0 +1,36 @@
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.item:nth-child(1) {
+    order: 1;
+    color: red;
+    flex-basis: calc((100% - 0px) / 2);
+}
+
+.item:nth-child(2) {
+    order: 4;
+    color: blue;
+    flex-basis: calc((100% - 0px) / 3);
+}
+
+.item:nth-child(3) {
+    order: 3;
+    color: purple;
+    flex-basis: calc((100% - 0px) / 3);
+}
+
+.item:nth-child(4) {
+    order: 5;
+    color: green;
+    flex-basis: calc((100% - 0px) / 3);
+}
+
+.item:nth-child(5) {
+    order: 2;
+    color: orange;
+    flex-basis: calc((100% - 0px) / 2);
+}
